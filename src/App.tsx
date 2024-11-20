@@ -1,9 +1,11 @@
-import ConditionalComponent from './components/basics/ConditionalComponent';
-import Counter from './components/basics/Counter';
-import Form from './components/basics/Form';
-import Fruits from './components/basics/Fruits';
-import Hello from './components/basics/Hello';
-import Message from './components/basics/Message';
+import ConditionalComponent from './basics/components/ConditionalComponent';
+import Counter from './basics/components/Counter';
+import Form from './basics/components/Form';
+import Fruits from './basics/components/Fruits';
+import Hello from './basics/components/Hello';
+import Message from './basics/components/Message';
+import InlineComponent from './todo-app/components/InlineComponent';
+import Todo from './todo-app/components/Todo';
 
 function App() {
   const person = {
@@ -14,7 +16,8 @@ function App() {
 
   return (
     <div className='App'>
-      <Form />
+      {/* <Todo /> */}
+      <InlineComponent />
     </div>
   );
 }
