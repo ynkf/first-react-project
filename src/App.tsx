@@ -1,9 +1,11 @@
 import TodoApp from './todo-app/TodoApp';
+import FoodApp from './food-app/FoodApp';
 
 function App() {
   return (
     <div>
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <FoodApp />
     </div>
   );
 }
